@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>operate_check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-594.000000, -143.000000)">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-11" transform="translate(16.000000, 61.000000)">
+                    <g id="编组-8备份-4" transform="translate(390.000000, 6.000000)">
+                        <g id="编组-14">
+                            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                            <path d="M6.5,7.46153846 C6.5,6.03815385 5,5.66152204 5,3.76923077 C5,2.23982685 6.34314575,1 8,1 C9.65685425,1 11,2.23982685 11,3.76923077 C11,5.66152204 9.5,6.03815385 9.5,7.46153846 C9.5,7.79507692 9.5,8.4745641 9.5,9.5 L14,10.6538462 L14,12.5 L2,12.5 L2,10.6538462 L6.5,9.5 C6.5,8.55128205 6.5,7.87179487 6.5,7.46153846 Z" id="路径" stroke="#24283F"></path>
+                            <line x1="2" y1="15" x2="14" y2="15" id="直线-5" stroke="#24283F" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

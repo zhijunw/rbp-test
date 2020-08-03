@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>operate_recheck</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-664.000000, -143.000000)">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-11" transform="translate(16.000000, 61.000000)">
+                    <g id="编组-8备份-5" transform="translate(460.000000, 6.000000)">
+                        <g id="编组-14">
+                            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                            <circle id="椭圆形" stroke="#24283F" cx="8" cy="8" r="7"></circle>
+                            <path d="M5,11 L9.45454545,11 C10.8603612,11 12,9.86036118 12,8.45454545 C12,7.04872973 10.8603612,5.90909091 9.45454545,5.90909091 L5,5.90909091 L5,5.90909091 L6.5,4" id="直线-9" stroke="#24283F" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

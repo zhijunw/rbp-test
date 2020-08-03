@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>operate_save</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-524.000000, -143.000000)">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-11" transform="translate(16.000000, 61.000000)">
+                    <g id="编组-8备份-3" transform="translate(320.000000, 6.000000)">
+                        <g id="operate_save">
+                            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                            <polygon id="矩形" stroke="#24283F" points="1 1 11.5 1 15 4 15 15 1 15"></polygon>
+                            <rect id="矩形" stroke="#24283F" x="4" y="7" width="8" height="5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

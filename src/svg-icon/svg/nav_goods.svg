@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>nav_goods</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="示例-单据" transform="translate(-12.000000, -305.000000)">
+            <g id="编组-3">
+                <g id="编组备份-11" transform="translate(0.000000, 290.000000)">
+                    <g id="编组-24" transform="translate(12.000000, 15.000000)">
+                        <rect id="矩形" x="0" y="0" width="16" height="16" rx="2"></rect>
+                        <path d="M3.33333333,14 L4.26666667,7 L3.33333333,8 L1,6 L3.59032711,2.76209111 C3.72617599,2.59228001 3.91123441,2.47616406 4.11592488,2.43230181 L6.13333333,2 C6.425,2.9375 7.125,3.38461538 8,3.38461538 C8.875,3.38461538 9.4765625,3.06054688 9.8046875,2.18164062 L9.86666667,2 L11.8840751,2.43230181 C12.0478275,2.46739161 12.1990154,2.54872377 12.322495,2.66679634 L12.4096729,2.76209111 L15,6 L12.6666667,8 L11.7333333,7 L12.6666667,14 L3.33333333,14 Z" id="路径" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

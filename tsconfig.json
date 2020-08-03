@@ -1,0 +1,97 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"],
+  "typeRoots": [
+    "node_modules/@types",
+    "src/typings"
+ ],
+  // 编译选项
+  "compilerOptions": {
+    // 输出目录
+    "outDir": "./output",
+    // 是否包含可以用于 debug 的 sourceMap
+    "sourceMap": true,
+    "skipLibCheck": true,
+    // 定义this
+    "noImplicitThis": false,
+    // 以严格模式解析
+    "strict": true,
+    // 采用的模块系统
+    "module": "esnext",
+    // 如何处理模块
+    "moduleResolution": "node",
+    // 无需要设定默认值
+    "strictPropertyInitialization": false,
+    // 允许从没有设置默认导出的模块中默认导入
+    "allowSyntheticDefaultImports": true,
+    // 将每个文件作为单独的模块
+    "isolatedModules": false,
+    // 启用装饰器
+    "experimentalDecorators": true,
+    // 启用设计类型元数据（用于反射）
+    "emitDecoratorMetadata": true,
+    // 不是函数的所有返回路径都有返回值时报错。
+    "noImplicitReturns": true,
+    // 从 tslib 导入外部帮助库: 比如__extends，__rest等
+    "importHelpers": true,
+    // 编译过程中打印文件名
+    "listFiles": true,
+    // 移除注释
+    "removeComments": true,
+    "downlevelIteration": false,
+    "suppressImplicitAnyIndexErrors": true,
+    // 允许编译javascript文件
+    "allowJs": true,
+    // 在表达式和声明上有隐含的any类型时报错
+    "noImplicitAny": false,
+    // 解析非相对模块名的基准目录
+    "baseUrl": "./",
+    // 指定特殊模块的路径
+    "paths": {
+      "@/*": ["src/*"] // 这里 只建议使用 @/   使用其他的别名可能不会生效
+    },
+    // 编译输出目标 ES 版本
+    "target": "es5",
+    // 编译过程中需要引入的库文件的列表
+    "lib": ["es2015", "es2017", "dom"]
+  }
+}
+
+// {
+//   "compilerOptions": {
+//     // 不报告执行不到的代码错误。
+//     "allowUnreachableCode": true,
+//     "strictNullChecks": true,
+//     // 严格模式, 强烈建议开启
+//     "strict": true,
+//     // 支持别名导入:
+//     // import * as React from "react"
+//     "esModuleInterop": true,
+//     // 目标js的版本
+//     "target": "es5",
+//     // 目标代码的模块结构版本
+//     // "module": "es6",
+//     // 在表达式和声明上有隐含的 any类型时报错。
+//     "noImplicitAny": true,
+//     // 删除注释
+//     "removeComments": true,
+//     // 保留 const和 enum声明
+//     "preserveConstEnums": false,
+//     // 生成sourceMap
+//     "sourceMap": true,
+//     // 目标文件所在路径
+//     "baseUrl": "./",
+//     // 编译过程中需要引入的库文件的列表
+//     "lib": ["dom", "esnext"],
+//     // 额外支持解构/forof等功能
+//     "downlevelIteration": true,
+//     // 是否生成声明文件
+//     // "declaration": true,
+//     // 声明文件路径
+//     // "declarationDir": "./lib",
+//     // 此处设置为node,才能解析import xx from 'xx'
+//     "moduleResolution": "node"
+//   },
+//   // 入口文件
+//   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+// }

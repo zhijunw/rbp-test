@@ -1,0 +1,3255 @@
+{
+  "ReportVersion": "2019.4.1",
+  "ReportGuid": "0d4e8c2e98bb7476332d1b01578fe546",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "billSalePlan.mrt",
+  "ReportCreated": "/Date(1574379718000+0800)/",
+  "ReportChanged": "/Date(1574379718000+0800)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "AutoLocalizeReportOnRun": true,
+  "PreviewSettings": 268435455,
+  "Dictionary": {
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "bills",
+        "Alias": "bills",
+        "Columns": {
+          "0": {
+            "Name": "billDate",
+            "Index": -1,
+            "NameInSource": "billDate",
+            "Alias": "billDate",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "billGoodsList",
+            "Index": -1,
+            "NameInSource": "billGoodsList",
+            "Alias": "billGoodsList",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "billNo",
+            "Index": -1,
+            "NameInSource": "billNo",
+            "Alias": "billNo",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "businessTypeId",
+            "Index": -1,
+            "NameInSource": "businessTypeId",
+            "Alias": "businessTypeId",
+            "Type": "System.Decimal"
+          },
+          "4": {
+            "Name": "businessTypeName",
+            "Index": -1,
+            "NameInSource": "businessTypeName",
+            "Alias": "businessTypeName",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "cancelBy",
+            "Index": -1,
+            "NameInSource": "cancelBy",
+            "Alias": "cancelBy",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "cancelByName",
+            "Index": -1,
+            "NameInSource": "cancelByName",
+            "Alias": "cancelByName",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "cancelTime",
+            "Index": -1,
+            "NameInSource": "cancelTime",
+            "Alias": "cancelTime",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "channelCode",
+            "Index": -1,
+            "NameInSource": "channelCode",
+            "Alias": "channelCode",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "channelId",
+            "Index": -1,
+            "NameInSource": "channelId",
+            "Alias": "channelId",
+            "Type": "System.Decimal"
+          },
+          "10": {
+            "Name": "channelName",
+            "Index": -1,
+            "NameInSource": "channelName",
+            "Alias": "channelName",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "checkBy",
+            "Index": -1,
+            "NameInSource": "checkBy",
+            "Alias": "checkBy",
+            "Type": "System.Decimal"
+          },
+          "12": {
+            "Name": "checkByName",
+            "Index": -1,
+            "NameInSource": "checkByName",
+            "Alias": "checkByName",
+            "Type": "System.String"
+          },
+          "13": {
+            "Name": "checkTime",
+            "Index": -1,
+            "NameInSource": "checkTime",
+            "Alias": "checkTime",
+            "Type": "System.String"
+          },
+          "14": {
+            "Name": "createdBy",
+            "Index": -1,
+            "NameInSource": "createdBy",
+            "Alias": "createdBy",
+            "Type": "System.Decimal"
+          },
+          "15": {
+            "Name": "createdByName",
+            "Index": -1,
+            "NameInSource": "createdByName",
+            "Alias": "createdByName",
+            "Type": "System.String"
+          },
+          "16": {
+            "Name": "createdTime",
+            "Index": -1,
+            "NameInSource": "createdTime",
+            "Alias": "createdTime",
+            "Type": "System.String"
+          },
+          "17": {
+            "Name": "currencyTypeId",
+            "Index": -1,
+            "NameInSource": "currencyTypeId",
+            "Alias": "currencyTypeId",
+            "Type": "System.String"
+          },
+          "18": {
+            "Name": "currencyTypeName",
+            "Index": -1,
+            "NameInSource": "currencyTypeName",
+            "Alias": "currencyTypeName",
+            "Type": "System.String"
+          },
+          "19": {
+            "Name": "customFields",
+            "Index": -1,
+            "NameInSource": "customFields",
+            "Alias": "customFields",
+            "Type": "System.String"
+          },
+          "20": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "21": {
+            "Name": "manualId",
+            "Index": -1,
+            "NameInSource": "manualId",
+            "Alias": "manualId",
+            "Type": "System.String"
+          },
+          "22": {
+            "Name": "moduleId",
+            "Index": -1,
+            "NameInSource": "moduleId",
+            "Alias": "moduleId",
+            "Type": "System.String"
+          },
+          "23": {
+            "Name": "notes",
+            "Index": -1,
+            "NameInSource": "notes",
+            "Alias": "notes",
+            "Type": "System.String"
+          },
+          "24": {
+            "Name": "priceTypeId",
+            "Index": -1,
+            "NameInSource": "priceTypeId",
+            "Alias": "priceTypeId",
+            "Type": "System.Decimal"
+          },
+          "25": {
+            "Name": "priceTypeName",
+            "Index": -1,
+            "NameInSource": "priceTypeName",
+            "Alias": "priceTypeName",
+            "Type": "System.String"
+          },
+          "26": {
+            "Name": "processStatus",
+            "Index": -1,
+            "NameInSource": "processStatus",
+            "Alias": "processStatus",
+            "Type": "System.Decimal"
+          },
+          "27": {
+            "Name": "processStatusName",
+            "Index": -1,
+            "NameInSource": "processStatusName",
+            "Alias": "processStatusName",
+            "Type": "System.String"
+          },
+          "28": {
+            "Name": "salePlanBillLogistics",
+            "Index": -1,
+            "NameInSource": "salePlanBillLogistics",
+            "Alias": "salePlanBillLogistics",
+            "Type": "System.String"
+          },
+          "29": {
+            "Name": "status",
+            "Index": -1,
+            "NameInSource": "status",
+            "Alias": "status",
+            "Type": "System.Decimal"
+          },
+          "30": {
+            "Name": "totalAllocateQuantity",
+            "Index": -1,
+            "NameInSource": "totalAllocateQuantity",
+            "Alias": "totalAllocateQuantity",
+            "Type": "System.String"
+          },
+          "31": {
+            "Name": "totalBalancePrice",
+            "Index": -1,
+            "NameInSource": "totalBalancePrice",
+            "Alias": "totalBalancePrice",
+            "Type": "System.String"
+          },
+          "32": {
+            "Name": "totalQuantity",
+            "Index": -1,
+            "NameInSource": "totalQuantity",
+            "Alias": "totalQuantity",
+            "Type": "System.String"
+          },
+          "33": {
+            "Name": "totalTagPrice",
+            "Index": -1,
+            "NameInSource": "totalTagPrice",
+            "Alias": "totalTagPrice",
+            "Type": "System.String"
+          },
+          "34": {
+            "Name": "uncheckBy",
+            "Index": -1,
+            "NameInSource": "uncheckBy",
+            "Alias": "uncheckBy",
+            "Type": "System.String"
+          },
+          "35": {
+            "Name": "uncheckByName",
+            "Index": -1,
+            "NameInSource": "uncheckByName",
+            "Alias": "uncheckByName",
+            "Type": "System.String"
+          },
+          "36": {
+            "Name": "uncheckTime",
+            "Index": -1,
+            "NameInSource": "uncheckTime",
+            "Alias": "uncheckTime",
+            "Type": "System.String"
+          },
+          "37": {
+            "Name": "updatedBy",
+            "Index": -1,
+            "NameInSource": "updatedBy",
+            "Alias": "updatedBy",
+            "Type": "System.Decimal"
+          },
+          "38": {
+            "Name": "updatedByName",
+            "Index": -1,
+            "NameInSource": "updatedByName",
+            "Alias": "updatedByName",
+            "Type": "System.String"
+          },
+          "39": {
+            "Name": "updatedTime",
+            "Index": -1,
+            "NameInSource": "updatedTime",
+            "Alias": "updatedTime",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "billSalePlan.bills"
+      },
+      "1": {
+        "Ident": "StiDataTableSource",
+        "Name": "bills_billGoodsList",
+        "Alias": "bills_billGoodsList",
+        "Columns": {
+          "0": {
+            "Name": "balancePrice",
+            "Index": -1,
+            "NameInSource": "balancePrice",
+            "Alias": "balancePrice",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "billId",
+            "Index": -1,
+            "NameInSource": "billId",
+            "Alias": "billId",
+            "Type": "System.Decimal"
+          },
+          "2": {
+            "Name": "billSizeList",
+            "Index": -1,
+            "NameInSource": "billSizeList",
+            "Alias": "billSizeList",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "currencyPrice",
+            "Index": -1,
+            "NameInSource": "currencyPrice",
+            "Alias": "currencyPrice",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "customFields",
+            "Index": -1,
+            "NameInSource": "customFields",
+            "Alias": "customFields",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "deliveryDate",
+            "Index": -1,
+            "NameInSource": "deliveryDate",
+            "Alias": "deliveryDate",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "discount",
+            "Index": -1,
+            "NameInSource": "discount",
+            "Alias": "discount",
+            "Type": "System.Decimal"
+          },
+          "7": {
+            "Name": "discountName",
+            "Index": -1,
+            "NameInSource": "discountName",
+            "Alias": "discountName",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "exchangeRate",
+            "Index": -1,
+            "NameInSource": "exchangeRate",
+            "Alias": "exchangeRate",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "goodsCode",
+            "Index": -1,
+            "NameInSource": "goodsCode",
+            "Alias": "goodsCode",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "goodsId",
+            "Index": -1,
+            "NameInSource": "goodsId",
+            "Alias": "goodsId",
+            "Type": "System.Decimal"
+          },
+          "11": {
+            "Name": "goodsName",
+            "Index": -1,
+            "NameInSource": "goodsName",
+            "Alias": "goodsName",
+            "Type": "System.String"
+          },
+          "12": {
+            "Name": "goodsType",
+            "Index": -1,
+            "NameInSource": "goodsType",
+            "Alias": "goodsType",
+            "Type": "System.Decimal"
+          },
+          "13": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "14": {
+            "Name": "quantity",
+            "Index": -1,
+            "NameInSource": "quantity",
+            "Alias": "quantity",
+            "Type": "System.Decimal"
+          },
+          "15": {
+            "Name": "relationId",
+            "Index": -1,
+            "NameInSource": "relationId",
+            "Alias": "relationId",
+            "Type": "System.String"
+          },
+          "16": {
+            "Name": "remark",
+            "Index": -1,
+            "NameInSource": "remark",
+            "Alias": "remark",
+            "Type": "System.String"
+          },
+          "17": {
+            "Name": "sizeClassId",
+            "Index": -1,
+            "NameInSource": "sizeClassId",
+            "Alias": "sizeClassId",
+            "Type": "System.Decimal"
+          },
+          "18": {
+            "Name": "tagPrice",
+            "Index": -1,
+            "NameInSource": "tagPrice",
+            "Alias": "tagPrice",
+            "Type": "System.Decimal"
+          },
+          "19": {
+            "Name": "totalPrice",
+            "Index": -1,
+            "NameInSource": "totalPrice",
+            "Alias": "totalPrice",
+            "Type": "System.Decimal"
+          }
+        },
+        "NameInSource": "billSalePlan.bills_billGoodsList"
+      },
+      "2": {
+        "Ident": "StiDataTableSource",
+        "Name": "bills_billGoodsList_billSizeList",
+        "Alias": "bills_billGoodsList_billSizeList",
+        "Columns": {
+          "0": {
+            "Name": "billGoodsId",
+            "Index": -1,
+            "NameInSource": "billGoodsId",
+            "Alias": "billGoodsId",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "billId",
+            "Index": -1,
+            "NameInSource": "billId",
+            "Alias": "billId",
+            "Type": "System.Decimal"
+          },
+          "2": {
+            "Name": "colorId",
+            "Index": -1,
+            "NameInSource": "colorId",
+            "Alias": "colorId",
+            "Type": "System.Decimal"
+          },
+          "3": {
+            "Name": "colorName",
+            "Index": -1,
+            "NameInSource": "colorName",
+            "Alias": "colorName",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "colorNo",
+            "Index": -1,
+            "NameInSource": "colorNo",
+            "Alias": "colorNo",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "goodsCode",
+            "Index": -1,
+            "NameInSource": "goodsCode",
+            "Alias": "goodsCode",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "goodsId",
+            "Index": -1,
+            "NameInSource": "goodsId",
+            "Alias": "goodsId",
+            "Type": "System.Decimal"
+          },
+          "7": {
+            "Name": "goodsName",
+            "Index": -1,
+            "NameInSource": "goodsName",
+            "Alias": "goodsName",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "9": {
+            "Name": "longId",
+            "Index": -1,
+            "NameInSource": "longId",
+            "Alias": "longId",
+            "Type": "System.Decimal"
+          },
+          "10": {
+            "Name": "longName",
+            "Index": -1,
+            "NameInSource": "longName",
+            "Alias": "longName",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "quantity",
+            "Index": -1,
+            "NameInSource": "quantity",
+            "Alias": "quantity",
+            "Type": "System.Decimal"
+          },
+          "12": {
+            "Name": "relationId",
+            "Index": -1,
+            "NameInSource": "relationId",
+            "Alias": "relationId",
+            "Type": "System.String"
+          },
+          "13": {
+            "Name": "s1",
+            "Index": -1,
+            "NameInSource": "s1",
+            "Alias": "s1",
+            "Type": "System.String"
+          },
+          "14": {
+            "Name": "s10",
+            "Index": -1,
+            "NameInSource": "s10",
+            "Alias": "s10",
+            "Type": "System.String"
+          },
+          "15": {
+            "Name": "s11",
+            "Index": -1,
+            "NameInSource": "s11",
+            "Alias": "s11",
+            "Type": "System.String"
+          },
+          "16": {
+            "Name": "s12",
+            "Index": -1,
+            "NameInSource": "s12",
+            "Alias": "s12",
+            "Type": "System.String"
+          },
+          "17": {
+            "Name": "s13",
+            "Index": -1,
+            "NameInSource": "s13",
+            "Alias": "s13",
+            "Type": "System.String"
+          },
+          "18": {
+            "Name": "s14",
+            "Index": -1,
+            "NameInSource": "s14",
+            "Alias": "s14",
+            "Type": "System.String"
+          },
+          "19": {
+            "Name": "s15",
+            "Index": -1,
+            "NameInSource": "s15",
+            "Alias": "s15",
+            "Type": "System.String"
+          },
+          "20": {
+            "Name": "s16",
+            "Index": -1,
+            "NameInSource": "s16",
+            "Alias": "s16",
+            "Type": "System.String"
+          },
+          "21": {
+            "Name": "s17",
+            "Index": -1,
+            "NameInSource": "s17",
+            "Alias": "s17",
+            "Type": "System.String"
+          },
+          "22": {
+            "Name": "s18",
+            "Index": -1,
+            "NameInSource": "s18",
+            "Alias": "s18",
+            "Type": "System.String"
+          },
+          "23": {
+            "Name": "s19",
+            "Index": -1,
+            "NameInSource": "s19",
+            "Alias": "s19",
+            "Type": "System.String"
+          },
+          "24": {
+            "Name": "s2",
+            "Index": -1,
+            "NameInSource": "s2",
+            "Alias": "s2",
+            "Type": "System.String"
+          },
+          "25": {
+            "Name": "s20",
+            "Index": -1,
+            "NameInSource": "s20",
+            "Alias": "s20",
+            "Type": "System.String"
+          },
+          "26": {
+            "Name": "s21",
+            "Index": -1,
+            "NameInSource": "s21",
+            "Alias": "s21",
+            "Type": "System.String"
+          },
+          "27": {
+            "Name": "s22",
+            "Index": -1,
+            "NameInSource": "s22",
+            "Alias": "s22",
+            "Type": "System.String"
+          },
+          "28": {
+            "Name": "s23",
+            "Index": -1,
+            "NameInSource": "s23",
+            "Alias": "s23",
+            "Type": "System.String"
+          },
+          "29": {
+            "Name": "s24",
+            "Index": -1,
+            "NameInSource": "s24",
+            "Alias": "s24",
+            "Type": "System.String"
+          },
+          "30": {
+            "Name": "s25",
+            "Index": -1,
+            "NameInSource": "s25",
+            "Alias": "s25",
+            "Type": "System.String"
+          },
+          "31": {
+            "Name": "s26",
+            "Index": -1,
+            "NameInSource": "s26",
+            "Alias": "s26",
+            "Type": "System.String"
+          },
+          "32": {
+            "Name": "s27",
+            "Index": -1,
+            "NameInSource": "s27",
+            "Alias": "s27",
+            "Type": "System.String"
+          },
+          "33": {
+            "Name": "s28",
+            "Index": -1,
+            "NameInSource": "s28",
+            "Alias": "s28",
+            "Type": "System.String"
+          },
+          "34": {
+            "Name": "s29",
+            "Index": -1,
+            "NameInSource": "s29",
+            "Alias": "s29",
+            "Type": "System.String"
+          },
+          "35": {
+            "Name": "s3",
+            "Index": -1,
+            "NameInSource": "s3",
+            "Alias": "s3",
+            "Type": "System.String"
+          },
+          "36": {
+            "Name": "s30",
+            "Index": -1,
+            "NameInSource": "s30",
+            "Alias": "s30",
+            "Type": "System.String"
+          },
+          "37": {
+            "Name": "s31",
+            "Index": -1,
+            "NameInSource": "s31",
+            "Alias": "s31",
+            "Type": "System.String"
+          },
+          "38": {
+            "Name": "s32",
+            "Index": -1,
+            "NameInSource": "s32",
+            "Alias": "s32",
+            "Type": "System.String"
+          },
+          "39": {
+            "Name": "s33",
+            "Index": -1,
+            "NameInSource": "s33",
+            "Alias": "s33",
+            "Type": "System.String"
+          },
+          "40": {
+            "Name": "s34",
+            "Index": -1,
+            "NameInSource": "s34",
+            "Alias": "s34",
+            "Type": "System.String"
+          },
+          "41": {
+            "Name": "s35",
+            "Index": -1,
+            "NameInSource": "s35",
+            "Alias": "s35",
+            "Type": "System.String"
+          },
+          "42": {
+            "Name": "s36",
+            "Index": -1,
+            "NameInSource": "s36",
+            "Alias": "s36",
+            "Type": "System.String"
+          },
+          "43": {
+            "Name": "s37",
+            "Index": -1,
+            "NameInSource": "s37",
+            "Alias": "s37",
+            "Type": "System.String"
+          },
+          "44": {
+            "Name": "s38",
+            "Index": -1,
+            "NameInSource": "s38",
+            "Alias": "s38",
+            "Type": "System.String"
+          },
+          "45": {
+            "Name": "s39",
+            "Index": -1,
+            "NameInSource": "s39",
+            "Alias": "s39",
+            "Type": "System.String"
+          },
+          "46": {
+            "Name": "s4",
+            "Index": -1,
+            "NameInSource": "s4",
+            "Alias": "s4",
+            "Type": "System.Decimal"
+          },
+          "47": {
+            "Name": "s40",
+            "Index": -1,
+            "NameInSource": "s40",
+            "Alias": "s40",
+            "Type": "System.String"
+          },
+          "48": {
+            "Name": "s41",
+            "Index": -1,
+            "NameInSource": "s41",
+            "Alias": "s41",
+            "Type": "System.String"
+          },
+          "49": {
+            "Name": "s42",
+            "Index": -1,
+            "NameInSource": "s42",
+            "Alias": "s42",
+            "Type": "System.String"
+          },
+          "50": {
+            "Name": "s43",
+            "Index": -1,
+            "NameInSource": "s43",
+            "Alias": "s43",
+            "Type": "System.String"
+          },
+          "51": {
+            "Name": "s44",
+            "Index": -1,
+            "NameInSource": "s44",
+            "Alias": "s44",
+            "Type": "System.String"
+          },
+          "52": {
+            "Name": "s45",
+            "Index": -1,
+            "NameInSource": "s45",
+            "Alias": "s45",
+            "Type": "System.String"
+          },
+          "53": {
+            "Name": "s46",
+            "Index": -1,
+            "NameInSource": "s46",
+            "Alias": "s46",
+            "Type": "System.String"
+          },
+          "54": {
+            "Name": "s47",
+            "Index": -1,
+            "NameInSource": "s47",
+            "Alias": "s47",
+            "Type": "System.String"
+          },
+          "55": {
+            "Name": "s48",
+            "Index": -1,
+            "NameInSource": "s48",
+            "Alias": "s48",
+            "Type": "System.String"
+          },
+          "56": {
+            "Name": "s49",
+            "Index": -1,
+            "NameInSource": "s49",
+            "Alias": "s49",
+            "Type": "System.String"
+          },
+          "57": {
+            "Name": "s5",
+            "Index": -1,
+            "NameInSource": "s5",
+            "Alias": "s5",
+            "Type": "System.Decimal"
+          },
+          "58": {
+            "Name": "s50",
+            "Index": -1,
+            "NameInSource": "s50",
+            "Alias": "s50",
+            "Type": "System.String"
+          },
+          "59": {
+            "Name": "s6",
+            "Index": -1,
+            "NameInSource": "s6",
+            "Alias": "s6",
+            "Type": "System.String"
+          },
+          "60": {
+            "Name": "s7",
+            "Index": -1,
+            "NameInSource": "s7",
+            "Alias": "s7",
+            "Type": "System.String"
+          },
+          "61": {
+            "Name": "s8",
+            "Index": -1,
+            "NameInSource": "s8",
+            "Alias": "s8",
+            "Type": "System.String"
+          },
+          "62": {
+            "Name": "s9",
+            "Index": -1,
+            "NameInSource": "s9",
+            "Alias": "s9",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "billSalePlan.bills_billGoodsList_billSizeList"
+      },
+      "3": {
+        "Ident": "StiDataTableSource",
+        "Name": "sizes",
+        "Alias": "sizes",
+        "Columns": {
+          "0": {
+            "Name": "s1",
+            "Index": -1,
+            "NameInSource": "s1",
+            "Alias": "s1",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "s10",
+            "Index": -1,
+            "NameInSource": "s10",
+            "Alias": "s10",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "s11",
+            "Index": -1,
+            "NameInSource": "s11",
+            "Alias": "s11",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "s12",
+            "Index": -1,
+            "NameInSource": "s12",
+            "Alias": "s12",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "s13",
+            "Index": -1,
+            "NameInSource": "s13",
+            "Alias": "s13",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "s14",
+            "Index": -1,
+            "NameInSource": "s14",
+            "Alias": "s14",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "s15",
+            "Index": -1,
+            "NameInSource": "s15",
+            "Alias": "s15",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "s16",
+            "Index": -1,
+            "NameInSource": "s16",
+            "Alias": "s16",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "s17",
+            "Index": -1,
+            "NameInSource": "s17",
+            "Alias": "s17",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "s18",
+            "Index": -1,
+            "NameInSource": "s18",
+            "Alias": "s18",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "s19",
+            "Index": -1,
+            "NameInSource": "s19",
+            "Alias": "s19",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "s2",
+            "Index": -1,
+            "NameInSource": "s2",
+            "Alias": "s2",
+            "Type": "System.String"
+          },
+          "12": {
+            "Name": "s20",
+            "Index": -1,
+            "NameInSource": "s20",
+            "Alias": "s20",
+            "Type": "System.String"
+          },
+          "13": {
+            "Name": "s21",
+            "Index": -1,
+            "NameInSource": "s21",
+            "Alias": "s21",
+            "Type": "System.String"
+          },
+          "14": {
+            "Name": "s22",
+            "Index": -1,
+            "NameInSource": "s22",
+            "Alias": "s22",
+            "Type": "System.String"
+          },
+          "15": {
+            "Name": "s23",
+            "Index": -1,
+            "NameInSource": "s23",
+            "Alias": "s23",
+            "Type": "System.String"
+          },
+          "16": {
+            "Name": "s24",
+            "Index": -1,
+            "NameInSource": "s24",
+            "Alias": "s24",
+            "Type": "System.String"
+          },
+          "17": {
+            "Name": "s25",
+            "Index": -1,
+            "NameInSource": "s25",
+            "Alias": "s25",
+            "Type": "System.String"
+          },
+          "18": {
+            "Name": "s26",
+            "Index": -1,
+            "NameInSource": "s26",
+            "Alias": "s26",
+            "Type": "System.String"
+          },
+          "19": {
+            "Name": "s27",
+            "Index": -1,
+            "NameInSource": "s27",
+            "Alias": "s27",
+            "Type": "System.String"
+          },
+          "20": {
+            "Name": "s28",
+            "Index": -1,
+            "NameInSource": "s28",
+            "Alias": "s28",
+            "Type": "System.String"
+          },
+          "21": {
+            "Name": "s29",
+            "Index": -1,
+            "NameInSource": "s29",
+            "Alias": "s29",
+            "Type": "System.String"
+          },
+          "22": {
+            "Name": "s3",
+            "Index": -1,
+            "NameInSource": "s3",
+            "Alias": "s3",
+            "Type": "System.String"
+          },
+          "23": {
+            "Name": "s30",
+            "Index": -1,
+            "NameInSource": "s30",
+            "Alias": "s30",
+            "Type": "System.String"
+          },
+          "24": {
+            "Name": "s31",
+            "Index": -1,
+            "NameInSource": "s31",
+            "Alias": "s31",
+            "Type": "System.String"
+          },
+          "25": {
+            "Name": "s32",
+            "Index": -1,
+            "NameInSource": "s32",
+            "Alias": "s32",
+            "Type": "System.String"
+          },
+          "26": {
+            "Name": "s33",
+            "Index": -1,
+            "NameInSource": "s33",
+            "Alias": "s33",
+            "Type": "System.String"
+          },
+          "27": {
+            "Name": "s34",
+            "Index": -1,
+            "NameInSource": "s34",
+            "Alias": "s34",
+            "Type": "System.String"
+          },
+          "28": {
+            "Name": "s35",
+            "Index": -1,
+            "NameInSource": "s35",
+            "Alias": "s35",
+            "Type": "System.String"
+          },
+          "29": {
+            "Name": "s36",
+            "Index": -1,
+            "NameInSource": "s36",
+            "Alias": "s36",
+            "Type": "System.String"
+          },
+          "30": {
+            "Name": "s37",
+            "Index": -1,
+            "NameInSource": "s37",
+            "Alias": "s37",
+            "Type": "System.String"
+          },
+          "31": {
+            "Name": "s38",
+            "Index": -1,
+            "NameInSource": "s38",
+            "Alias": "s38",
+            "Type": "System.String"
+          },
+          "32": {
+            "Name": "s39",
+            "Index": -1,
+            "NameInSource": "s39",
+            "Alias": "s39",
+            "Type": "System.String"
+          },
+          "33": {
+            "Name": "s4",
+            "Index": -1,
+            "NameInSource": "s4",
+            "Alias": "s4",
+            "Type": "System.String"
+          },
+          "34": {
+            "Name": "s40",
+            "Index": -1,
+            "NameInSource": "s40",
+            "Alias": "s40",
+            "Type": "System.String"
+          },
+          "35": {
+            "Name": "s41",
+            "Index": -1,
+            "NameInSource": "s41",
+            "Alias": "s41",
+            "Type": "System.String"
+          },
+          "36": {
+            "Name": "s42",
+            "Index": -1,
+            "NameInSource": "s42",
+            "Alias": "s42",
+            "Type": "System.String"
+          },
+          "37": {
+            "Name": "s43",
+            "Index": -1,
+            "NameInSource": "s43",
+            "Alias": "s43",
+            "Type": "System.String"
+          },
+          "38": {
+            "Name": "s44",
+            "Index": -1,
+            "NameInSource": "s44",
+            "Alias": "s44",
+            "Type": "System.String"
+          },
+          "39": {
+            "Name": "s45",
+            "Index": -1,
+            "NameInSource": "s45",
+            "Alias": "s45",
+            "Type": "System.String"
+          },
+          "40": {
+            "Name": "s46",
+            "Index": -1,
+            "NameInSource": "s46",
+            "Alias": "s46",
+            "Type": "System.String"
+          },
+          "41": {
+            "Name": "s47",
+            "Index": -1,
+            "NameInSource": "s47",
+            "Alias": "s47",
+            "Type": "System.String"
+          },
+          "42": {
+            "Name": "s48",
+            "Index": -1,
+            "NameInSource": "s48",
+            "Alias": "s48",
+            "Type": "System.String"
+          },
+          "43": {
+            "Name": "s49",
+            "Index": -1,
+            "NameInSource": "s49",
+            "Alias": "s49",
+            "Type": "System.String"
+          },
+          "44": {
+            "Name": "s5",
+            "Index": -1,
+            "NameInSource": "s5",
+            "Alias": "s5",
+            "Type": "System.String"
+          },
+          "45": {
+            "Name": "s50",
+            "Index": -1,
+            "NameInSource": "s50",
+            "Alias": "s50",
+            "Type": "System.String"
+          },
+          "46": {
+            "Name": "s6",
+            "Index": -1,
+            "NameInSource": "s6",
+            "Alias": "s6",
+            "Type": "System.String"
+          },
+          "47": {
+            "Name": "s7",
+            "Index": -1,
+            "NameInSource": "s7",
+            "Alias": "s7",
+            "Type": "System.String"
+          },
+          "48": {
+            "Name": "s8",
+            "Index": -1,
+            "NameInSource": "s8",
+            "Alias": "s8",
+            "Type": "System.String"
+          },
+          "49": {
+            "Name": "s9",
+            "Index": -1,
+            "NameInSource": "s9",
+            "Alias": "s9",
+            "Type": "System.String"
+          },
+          "50": {
+            "Name": "sizeClassId",
+            "Index": -1,
+            "NameInSource": "sizeClassId",
+            "Alias": "sizeClassId",
+            "Type": "System.Decimal"
+          },
+          "51": {
+            "Name": "sizeClassName",
+            "Index": -1,
+            "NameInSource": "sizeClassName",
+            "Alias": "sizeClassName",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "billSalePlan.sizes"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiJsonDatabase",
+        "Name": "billSalePlan",
+        "Alias": "billSalePlan",
+        "PathData": "/reports/billSalePlan.json"
+      }
+    },
+    "Relations": {
+      "0": {
+        "Name": "bills",
+        "ChildColumns": {
+          "0": "relationId"
+        },
+        "ParentColumns": {
+          "0": "billGoodsList"
+        },
+        "NameInSource": "bills_billGoodsList",
+        "Alias": "bills",
+        "IsCloud": null,
+        "ParentSource": "bills",
+        "ChildSource": "bills_billGoodsList"
+      },
+      "1": {
+        "Name": "bills_billGoodsList",
+        "ChildColumns": {
+          "0": "relationId"
+        },
+        "ParentColumns": {
+          "0": "billSizeList"
+        },
+        "NameInSource": "bills_billGoodsList_billSizeList",
+        "Alias": "bills_billGoodsList",
+        "IsCloud": null,
+        "ParentSource": "bills_billGoodsList",
+        "ChildSource": "bills_billGoodsList_billSizeList"
+      },
+      "2": {
+        "Name": "sizeClassRelation",
+        "ChildColumns": {
+          "0": "sizeClassId"
+        },
+        "ParentColumns": {
+          "0": "sizeClassId"
+        },
+        "NameInSource": "sizeClassRelation",
+        "Alias": "sizeClassRelation",
+        "IsCloud": null,
+        "ParentSource": "sizes",
+        "ChildSource": "bills_billGoodsList"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "ae4dce06587627dacb0d1775e3c611eb",
+      "Interaction": {
+        "Ident": "StiInteraction",
+        "DrillDownMode": "SinglePage"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "Components": {
+        "0": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand1",
+          "ClientRectangle": "0,0.4,21,3",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "Guid": "784070c970766dbc8957d7f9000c7f6d",
+              "ClientRectangle": "0.8,2,1.8,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "渠   道"
+              },
+              "HorAlignment": "Center",
+              "Font": "SimSun;11;;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "42a2925075923a1751ced1d5407885c0",
+              "ClientRectangle": "0.8,1.2,1.8,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "单据日期"
+              },
+              "Font": "SimSun;11;;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiBarCode",
+              "Name": "BarCode1",
+              "ClientRectangle": "9.6,1.2,9.6,1.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Border": ";;;;;;;solid:Black",
+              "BackColor": "Transparent",
+              "AutoScale": true,
+              "BarCodeType": {
+                "Ident": "StiCode128aBarCodeType"
+              },
+              "Code": {
+                "Value": "{bills.billNo}"
+              }
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text5",
+              "Guid": "ecb951f8b6b94696e00c07240105585f",
+              "ClientRectangle": "3,2,6.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills.channelCode}-{bills.channelName}"
+              },
+              "Font": "SimSun;11;;",
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "3943b6a5e2f4a734b9da987520ed4f6b",
+              "ClientRectangle": "3,1.2,5.4,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills.billDate}"
+              },
+              "Font": "SimSun;11;;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "DataColumn"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text7",
+              "Guid": "86b5803b11f59c5f1f78fe6723a197f8",
+              "ClientRectangle": "7.8,0.1,2.6,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "销售计划"
+              },
+              "Font": "SimSun;14;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            }
+          },
+          "NewPageBefore": true,
+          "DataSourceName": "bills"
+        },
+        "1": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand3",
+          "CanShrink": true,
+          "ClientRectangle": "0,4.2,21,1.2",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiPanel",
+              "Name": "Panel1",
+              "Guid": "ea5e279eaf1416c8aac4d9308de4c972",
+              "ClientRectangle": "0,0,21,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "Components": {
+                "0": {
+                  "Ident": "StiText",
+                  "Name": "Text8",
+                  "Guid": "678b114e57d0fbc36785e478f9e54bdd",
+                  "GrowToHeight": true,
+                  "ClientRectangle": "0,0,3,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "货号"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "1": {
+                  "Ident": "StiText",
+                  "Name": "Text11",
+                  "Guid": "ba3b4498f0c324fac9c0a7a2641fcf52",
+                  "GrowToHeight": true,
+                  "ClientRectangle": "3,0,3,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "颜色"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "2": {
+                  "Ident": "StiText",
+                  "Name": "Text12",
+                  "Guid": "3715909737680f96647fbb81c32bbdc1",
+                  "ClientRectangle": "6,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s1}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "3": {
+                  "Ident": "StiText",
+                  "Name": "Text26",
+                  "Guid": "52754922b3059979413046fe35e4696a",
+                  "CanShrink": true,
+                  "ClientRectangle": "7,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s2}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "4": {
+                  "Ident": "StiText",
+                  "Name": "Text27",
+                  "Guid": "1a85fc10112228b756af0a14e6be8332",
+                  "CanShrink": true,
+                  "ClientRectangle": "8,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s3}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "5": {
+                  "Ident": "StiText",
+                  "Name": "Text52",
+                  "Guid": "0839031f658bc0834a6e8111f183538d",
+                  "CanShrink": true,
+                  "ClientRectangle": "9,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s4}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "6": {
+                  "Ident": "StiText",
+                  "Name": "Text53",
+                  "Guid": "09da8469a2c21b7559c561be4752e6b0",
+                  "CanShrink": true,
+                  "ClientRectangle": "10,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s5}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "7": {
+                  "Ident": "StiText",
+                  "Name": "Text54",
+                  "Guid": "0134c8f96cd9644cb1f8977a23e206b1",
+                  "CanShrink": true,
+                  "ClientRectangle": "11,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s6}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "8": {
+                  "Ident": "StiText",
+                  "Name": "Text55",
+                  "Guid": "994dca3a8eb32ee15825e2085a37ce5d",
+                  "CanShrink": true,
+                  "ClientRectangle": "12,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s7}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "9": {
+                  "Ident": "StiText",
+                  "Name": "Text56",
+                  "Guid": "72cc91da2605670c80dcb76fbf0020fe",
+                  "CanShrink": true,
+                  "ClientRectangle": "13,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s8}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "10": {
+                  "Ident": "StiText",
+                  "Name": "Text57",
+                  "Guid": "9e93c1b8ad29ef82f4e407feaf979fc5",
+                  "GrowToHeight": true,
+                  "ClientRectangle": "17,0,1.8,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "数量"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "11": {
+                  "Ident": "StiText",
+                  "Name": "Text58",
+                  "Guid": "a6d18b342706b9aaee1e2040df07fa36",
+                  "GrowToHeight": true,
+                  "ClientRectangle": "18.8,0,2.2,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "金额"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "12": {
+                  "Ident": "StiText",
+                  "Name": "Text76",
+                  "Guid": "a32c5051ebd9739f0a34c07a0a215c75",
+                  "CanShrink": true,
+                  "ClientRectangle": "15,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s10}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "DataColumn"
+                },
+                "13": {
+                  "Ident": "StiText",
+                  "Name": "Text78",
+                  "Guid": "84613dfb563fee06a3039be8e2a940c1",
+                  "CanShrink": true,
+                  "ClientRectangle": "16,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s11}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "DataColumn"
+                },
+                "14": {
+                  "Ident": "StiText",
+                  "Name": "Text4",
+                  "Guid": "94dd0b0b7a6132c3c31c4eccfcc199a1",
+                  "CanShrink": true,
+                  "ClientRectangle": "14,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{bills_billGoodsList.sizeClassRelation.s9}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "DataColumn"
+                }
+              }
+            },
+            "1": {
+              "Ident": "StiPanel",
+              "Name": "Panel2",
+              "Guid": "6c2b666754dc36a160aeebb39f9e6784",
+              "CanShrink": true,
+              "ClientRectangle": "0,0.6,21,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "Components": {
+                "0": {
+                  "Ident": "StiText",
+                  "Name": "Text9",
+                  "Guid": "b9f5ce8e227a156624a9ebfc6d7d9142",
+                  "CanShrink": true,
+                  "GrowToHeight": true,
+                  "ClientRectangle": "0,0,3,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s9==\"\",\"\",\"货号\")}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "1": {
+                  "Ident": "StiText",
+                  "Name": "Text13",
+                  "Guid": "f4da1e15d5bd6c0cbc54088d93b6cc0b",
+                  "CanShrink": true,
+                  "GrowToHeight": true,
+                  "ClientRectangle": "3,0,3,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s9==\"\",\"\",\"颜色\")}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "2": {
+                  "Ident": "StiText",
+                  "Name": "Text25",
+                  "Guid": "47168ee8eec82c4f46a46277012a1faa",
+                  "CanShrink": true,
+                  "ClientRectangle": "6,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s12)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "3": {
+                  "Ident": "StiText",
+                  "Name": "Text59",
+                  "Guid": "2472c3b157d8d4e86da843c1581491bb",
+                  "CanShrink": true,
+                  "ClientRectangle": "7.01,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s13)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "4": {
+                  "Ident": "StiText",
+                  "Name": "Text60",
+                  "Guid": "4b184ca549e133367f59285b9e9266ad",
+                  "CanShrink": true,
+                  "ClientRectangle": "8,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s14)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "5": {
+                  "Ident": "StiText",
+                  "Name": "Text61",
+                  "Guid": "7ef4a684e0f3dfba2278ac71df9a59f2",
+                  "CanShrink": true,
+                  "ClientRectangle": "8.99,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s15)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "6": {
+                  "Ident": "StiText",
+                  "Name": "Text62",
+                  "Guid": "a9f68aa75332c3aaf78f5f2b073bb088",
+                  "CanShrink": true,
+                  "ClientRectangle": "10.01,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s16)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "7": {
+                  "Ident": "StiText",
+                  "Name": "Text63",
+                  "Guid": "ca7a0cffaf01642c8831cd830b3b73a9",
+                  "CanShrink": true,
+                  "ClientRectangle": "11,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s17)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "8": {
+                  "Ident": "StiText",
+                  "Name": "Text64",
+                  "Guid": "469993488916216b3e168e6e27b5c0ed",
+                  "CanShrink": true,
+                  "ClientRectangle": "11.99,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s18)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "9": {
+                  "Ident": "StiText",
+                  "Name": "Text65",
+                  "Guid": "870fe7674a9c4bb0e1c9ad56344eb05d",
+                  "CanShrink": true,
+                  "ClientRectangle": "13,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s19)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "10": {
+                  "Ident": "StiText",
+                  "Name": "Text66",
+                  "Guid": "c774de1efa5af78a96fea7b67ea16274",
+                  "CanShrink": true,
+                  "GrowToHeight": true,
+                  "ClientRectangle": "17,0,1.8,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s9==\"\",\"\",\"数量\")}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "11": {
+                  "Ident": "StiText",
+                  "Name": "Text67",
+                  "Guid": "ec0f47cd20942d9500f6f8ad6352082d",
+                  "CanShrink": true,
+                  "GrowToHeight": true,
+                  "ClientRectangle": "18.8,0,2.2,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "ProcessingDuplicates": "GlobalMerge",
+                  "ProcessAt": "EndOfPage",
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s9==\"\",\"\",\"金额\")}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;12;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "12": {
+                  "Ident": "StiText",
+                  "Name": "Text6",
+                  "Guid": "ebf3cb3268b000774519e27883dc94f5",
+                  "CanShrink": true,
+                  "ClientRectangle": "14,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s20)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "13": {
+                  "Ident": "StiText",
+                  "Name": "Text77",
+                  "Guid": "4ca233dd41b29a2980f9d9eb9a162e27",
+                  "CanShrink": true,
+                  "ClientRectangle": "15,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s21)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                },
+                "14": {
+                  "Ident": "StiText",
+                  "Name": "Text79",
+                  "Guid": "b66f579d2f9c41902840ce7d47636743",
+                  "CanShrink": true,
+                  "ClientRectangle": "16,0,1,0.6",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "{IIF(bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",bills_billGoodsList.sizeClassRelation.s22)}"
+                  },
+                  "HorAlignment": "Center",
+                  "VertAlignment": "Center",
+                  "Font": "SimSun;16;;",
+                  "Border": "All;105,105,105;;;;;;solid:105,105,105",
+                  "Brush": "solid:242,242,242",
+                  "TextBrush": "solid:0,0,0",
+                  "Type": "Expression"
+                }
+              }
+            }
+          },
+          "DataSourceName": "bills_billGoodsList",
+          "DataRelationName": "bills_billGoodsList",
+          "MasterComponent": "DataBand1"
+        },
+        "2": {
+          "Ident": "StiFooterBand",
+          "Name": "FooterBand3",
+          "ClientRectangle": "0,6.2,21,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text10",
+              "Guid": "e83dd31107b689687b25de6465044535",
+              "ClientRectangle": "0,0,3,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "总计"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Left, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text16",
+              "Guid": "24835d6ff56605ea6ad177d1bb31bf46",
+              "ClientRectangle": "3,0,3,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "0c54b67f75471736485551a6e4400e08",
+              "ClientRectangle": "6,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text21",
+              "Guid": "6858b400aa0eca07d3ecf553924ad766",
+              "ClientRectangle": "7,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text22",
+              "Guid": "d94c5c7b545c10fb9d036ca9723ce085",
+              "ClientRectangle": "8,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "fc4da67347e0e55f674af0ec4715a8f8",
+              "ClientRectangle": "9,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text24",
+              "Guid": "4af27b5a1f5b60d5d99eb4d2caedf091",
+              "ClientRectangle": "10,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text40",
+              "Guid": "b07385675be4fad36c4280eb7137c12a",
+              "ClientRectangle": "11,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text41",
+              "Guid": "d38599b645062ae5cfca3a8bb1be98ac",
+              "ClientRectangle": "12,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "9": {
+              "Ident": "StiText",
+              "Name": "Text50",
+              "Guid": "0f2312e2d9062f09ab9316044f04c1fc",
+              "ClientRectangle": "13,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "10": {
+              "Ident": "StiText",
+              "Name": "Text51",
+              "Guid": "d5e832aa97184aa7962edf9a8d40bdde",
+              "ClientRectangle": "17,0,1.8,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(DataBand3,bills_billGoodsList.quantity)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Totals"
+            },
+            "11": {
+              "Ident": "StiText",
+              "Name": "Text75",
+              "Guid": "35c888a8b9db665ab051febf710d310b",
+              "ClientRectangle": "18.8,0,2.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(DataBand3,bills_billGoodsList.balancePrice*bills_billGoodsList.quantity)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Totals"
+            },
+            "12": {
+              "Ident": "StiText",
+              "Name": "Text80",
+              "Guid": "e41f2777bc65974dda00da06189b002e",
+              "ClientRectangle": "14,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "13": {
+              "Ident": "StiText",
+              "Name": "Text81",
+              "Guid": "3963a57f8b5536678ee904254f4284ae",
+              "ClientRectangle": "15,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "14": {
+              "Ident": "StiText",
+              "Name": "Text82",
+              "Guid": "3dd2047370216f157ba0c5454e0bd84e",
+              "ClientRectangle": "16,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            }
+          }
+        },
+        "3": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand4",
+          "CanShrink": true,
+          "ClientRectangle": "0,7.6,21,1.6",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text38",
+              "Guid": "53994f8a69603875eabff5da85e35632",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "MinSize": "0,0.8",
+              "ClientRectangle": "0,0,3,1.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "ProcessingDuplicates": "Merge",
+              "ProcessAt": "EndOfPage",
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.goodsCode}-{bills_billGoodsList_billSizeList.goodsName}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;12;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text39",
+              "Guid": "70c0fe1deed9ba78590782fd6d3cf0a5",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "MinSize": "0,0.8",
+              "ClientRectangle": "3,0,3,1.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.colorNo}-{bills_billGoodsList_billSizeList.colorName}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;12;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text30",
+              "Guid": "143710b7129736ebcf489dc0e1c11351",
+              "ClientRectangle": "6,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s1==0,\"     0\",bills_billGoodsList_billSizeList.s1)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text31",
+              "Guid": "1da5a8ec39f6a9f9d407985d0319f516",
+              "ClientRectangle": "7,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s2==0,\"     0\",bills_billGoodsList_billSizeList.s2)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text32",
+              "Guid": "98fbc769ef8f110d987ef46b28475b3f",
+              "ClientRectangle": "8,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s3==0,\"     0\",bills_billGoodsList_billSizeList.s3)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text33",
+              "Guid": "10a967f89d88690bf2ae587a07ad4d22",
+              "ClientRectangle": "9,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s4==0,\"     0\",bills_billGoodsList_billSizeList.s4)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text34",
+              "Guid": "8a239ab82c74eb155e408423a8cf2676",
+              "ClientRectangle": "10,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s5==0,\"     0\",bills_billGoodsList_billSizeList.s5)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text35",
+              "Guid": "9baf5995dcf2ee787e39f054abb42991",
+              "ClientRectangle": "11,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s6==0,\"     0\",bills_billGoodsList_billSizeList.s6)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text36",
+              "Guid": "937bf90cc2e1666f0bf94bee479ee399",
+              "ClientRectangle": "12,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s7==0,\"     0\",bills_billGoodsList_billSizeList.s7)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "9": {
+              "Ident": "StiText",
+              "Name": "Text37",
+              "Guid": "cbd3680456a2b20d55f176e64e90145a",
+              "ClientRectangle": "13,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s8==0,\"     0\",bills_billGoodsList_billSizeList.s8)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "10": {
+              "Ident": "StiText",
+              "Name": "Text28",
+              "Guid": "840b49dbad787baf6fca623dd0fffe98",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "MinSize": "0,0.8",
+              "MaxSize": "0,1.6",
+              "ClientRectangle": "17,0,1.8,1.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.quantity}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "11": {
+              "Ident": "StiText",
+              "Name": "Text29",
+              "Guid": "544896461468f1301a768fbcab295bb6",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "MinSize": "0,0.8",
+              "MaxSize": "0,1.6",
+              "ClientRectangle": "18.8,0,2.2,1.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.quantity * bills_billGoodsList_billSizeList.bills_billGoodsList.balancePrice}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "12": {
+              "Ident": "StiText",
+              "Name": "Text42",
+              "ShiftMode": "None",
+              "Guid": "13520129d481eb1070ab0ae07bea0fed",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "6,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s12==0,\"     0\",bills_billGoodsList_billSizeList.s12))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "13": {
+              "Ident": "StiText",
+              "Name": "Text43",
+              "ShiftMode": "None",
+              "Guid": "1d07b09a2b6e77d7ee9a08269dd22c2a",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "7,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s13==0,\"     0\",bills_billGoodsList_billSizeList.s13))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "14": {
+              "Ident": "StiText",
+              "Name": "Text44",
+              "ShiftMode": "None",
+              "Guid": "5a8700a8432d4e2c3a02660ace14efb0",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "8,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s14==0,\"     0\",bills_billGoodsList_billSizeList.s14))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "15": {
+              "Ident": "StiText",
+              "Name": "Text45",
+              "ShiftMode": "None",
+              "Guid": "83f6f9033a53779f993d163836f8f5be",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "9,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s15==0,\"     0\",bills_billGoodsList_billSizeList.s15))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "16": {
+              "Ident": "StiText",
+              "Name": "Text46",
+              "ShiftMode": "None",
+              "Guid": "e54dc53ab7e9c898859a77c55d11e4f5",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "10,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s16==0,\"     0\",bills_billGoodsList_billSizeList.s16))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "17": {
+              "Ident": "StiText",
+              "Name": "Text47",
+              "ShiftMode": "None",
+              "Guid": "9b0b2d8c9dbe32ead65d1bd015ff4ffa",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "11,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s17==0,\"     0\",bills_billGoodsList_billSizeList.s17))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "18": {
+              "Ident": "StiText",
+              "Name": "Text48",
+              "ShiftMode": "None",
+              "Guid": "bf2164ba5afd6295a936b480cbbf1833",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "12,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s18==0,\"     0\",bills_billGoodsList_billSizeList.s18))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "19": {
+              "Ident": "StiText",
+              "Name": "Text49",
+              "ShiftMode": "None",
+              "Guid": "ee3451d9eaa042ed0d9b72d463f31323",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "13,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s19==0,\"     0\",bills_billGoodsList_billSizeList.s19))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "20": {
+              "Ident": "StiText",
+              "Name": "Text83",
+              "Guid": "d0f5473e498845aac933e9442f3053b4",
+              "ClientRectangle": "14,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s9==0,\"     0\",bills_billGoodsList_billSizeList.s9)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "21": {
+              "Ident": "StiText",
+              "Name": "Text84",
+              "ShiftMode": "None",
+              "Guid": "362eb0178147249e30a4907da5427e99",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "14,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s20==0,\"     0\",bills_billGoodsList_billSizeList.s20))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "22": {
+              "Ident": "StiText",
+              "Name": "Text85",
+              "Guid": "7a40be54f8baecc32b98295ec276ebfb",
+              "ClientRectangle": "15,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s10==0,\"     0\",bills_billGoodsList_billSizeList.s10)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "23": {
+              "Ident": "StiText",
+              "Name": "Text86",
+              "ShiftMode": "None",
+              "Guid": "3bdb6be8559429603c508cfbae9bf59b",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "15,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s21==0,\"     0\",bills_billGoodsList_billSizeList.s21))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "24": {
+              "Ident": "StiText",
+              "Name": "Text87",
+              "Guid": "758ba16dcffecc6db7e6ef99bdd07d16",
+              "ClientRectangle": "16,0,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.s11==0,\"     0\",bills_billGoodsList_billSizeList.s11)}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "25": {
+              "Ident": "StiText",
+              "Name": "Text88",
+              "ShiftMode": "None",
+              "Guid": "4f1109ec34b6619b2d1c31143b350746",
+              "CanShrink": true,
+              "GrowToHeight": true,
+              "ClientRectangle": "16,0.8,1,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{IIF(bills_billGoodsList_billSizeList.bills_billGoodsList.sizeClassRelation.s12==\"\",\"\",IIF(bills_billGoodsList_billSizeList.s22==0,\"     0\",bills_billGoodsList_billSizeList.s22))}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            }
+          },
+          "DataSourceName": "bills_billGoodsList_billSizeList",
+          "DataRelationName": "bills_billGoodsList_billSizeList",
+          "MasterComponent": "DataBand3"
+        },
+        "4": {
+          "Ident": "StiFooterBand",
+          "Name": "FooterBand1",
+          "ClientRectangle": "0,10,21,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text14",
+              "Guid": "4b906a1fb519e936ec908285aa2d8cfb",
+              "ClientRectangle": "0,0,3,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "小计"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Left, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text15",
+              "Guid": "92d551f6147c199418a4111e2c98e00e",
+              "ClientRectangle": "3,0,3,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text17",
+              "Guid": "ddc8ec30200f052c8ba42b2028e798bd",
+              "ClientRectangle": "6,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text18",
+              "Guid": "1679c47b34559d705923d09979c66aff",
+              "ClientRectangle": "7,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text19",
+              "Guid": "1c01565d886430d5b0cd43052ff9fe28",
+              "ClientRectangle": "8,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text68",
+              "Guid": "0a9bfa6e43514a85088fc3e98fd31ed0",
+              "ClientRectangle": "9,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text69",
+              "Guid": "cd8f4daf8bd8cf1a56cfd455f08d443d",
+              "ClientRectangle": "10,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text70",
+              "Guid": "8e0ae001115aaec5dda0d1c92b760966",
+              "ClientRectangle": "11,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text71",
+              "Guid": "d7b18469f991bdf3175b1fa506d91e0a",
+              "ClientRectangle": "12,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "9": {
+              "Ident": "StiText",
+              "Name": "Text72",
+              "Guid": "3a20039c6412f948e8be8cabe30a2acc",
+              "ClientRectangle": "13,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "10": {
+              "Ident": "StiText",
+              "Name": "Text73",
+              "Guid": "1348c46221d120f1dbb30930ab871a29",
+              "ClientRectangle": "17,0,1.8,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.bills_billGoodsList.quantity}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "11": {
+              "Ident": "StiText",
+              "Name": "Text74",
+              "Guid": "aad7c9929274b609f729ef1fa843e043",
+              "ClientRectangle": "18.8,0,2.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{bills_billGoodsList_billSizeList.bills_billGoodsList.quantity*bills_billGoodsList_billSizeList.bills_billGoodsList.balancePrice}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "All;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "Expression"
+            },
+            "12": {
+              "Ident": "StiText",
+              "Name": "Text89",
+              "Guid": "30bddb5987e64f571d1066341ba84108",
+              "ClientRectangle": "14,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "13": {
+              "Ident": "StiText",
+              "Name": "Text90",
+              "Guid": "4ea9d8d3f5db3e92ad61624593d76246",
+              "ClientRectangle": "15,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            },
+            "14": {
+              "Ident": "StiText",
+              "Name": "Text91",
+              "Guid": "4efcecab2890f0f98721527df2e14ee2",
+              "ClientRectangle": "16,0,1,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "HideZeros": true,
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "SimSun;16;;",
+              "Border": "Top, Bottom;105,105,105;;;;;;solid:105,105,105",
+              "Brush": "solid:242,242,242",
+              "TextBrush": "solid:0,0,0",
+              "Type": "DataColumn"
+            }
+          }
+        }
+      },
+      "Columns": 1,
+      "PaperSize": "A4",
+      "PageWidth": 21,
+      "PageHeight": 29.7,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 0,
+        "Right": 0,
+        "Top": 0,
+        "Bottom": 0
+      }
+    }
+  }
+}

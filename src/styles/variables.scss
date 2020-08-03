@@ -1,0 +1,64 @@
+// sidebar
+$menuText:#fff;
+$menuActiveText:#fff;
+$subMenuActiveText:#fff; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#24283F;
+$menuHover:#1B1F34;
+
+$subMenuBg:#24283F;
+$subMenuHover:#1B1F34;
+
+$sideBarWidth: 180px;
+$thHeight: 28px;
+//sidebar
+// $menuBg:#304156;
+// $subMenuBg:#1f2d3d;
+// $menuHover:#001528;
+$headerBg: #324057;
+// basic
+$basic:#186CFF;
+$success:#23C811;
+$warning:#FF7F14;
+$danger:#FA4150;
+$info:#1CA1FF;
+$infoBorder: #ebeef5;
+$successBg: #f0f9eb;
+$warningBg: #fdf6ec;
+$dangerBg: #fef0f0;
+$inputInnerColor:#F4FAFF;
+$inputInnerborder:#4689FF;
+$infoBg: #edf2fc;
+$successBorder: #e1f3d8;
+$warningBorder: #faecd8;
+
+$baseHover: #E2ECFF;
+$baseTableBg: #f7f8fa;
+$borderColorBase: #D7D7D7;
+$baseBorder:#E4E7ED;
+$lighterBorder: #EBEEF5;
+
+// $moduleBg: #f7f8fa;
+$noBorderFocus:#4689FF;
+$moduleBg: #F2F2F5;
+$paleBorder:#e6e6e6;
+$dangerBorder: #fde2e2;
+$colorTextPrimary: #24283F;
+$colorTextRegular:#353D51;
+$colorTextSecondary: #7C7E85;
+$colorTextPlaceholder: #A6A7AD;
+$norderBg: #F5F9FF;
+
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}

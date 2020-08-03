@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>close_nav</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-192.000000, -11.000000)">
+            <g id="编组-7" transform="translate(180.000000, 0.000000)">
+                <g id="close_nav" transform="translate(10.000000, 8.000000)">
+                    <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                    <rect id="矩形复制-3" fill="#A6A7AD" x="2" y="3" width="16" height="2" rx="1"></rect>
+                    <rect id="矩形复制-4" fill="#A6A7AD" x="2" y="15" width="9" height="2" rx="1"></rect>
+                    <polygon id="三角形" fill="#A6A7AD" transform="translate(15.500000, 16.000000) rotate(-90.000000) translate(-15.500000, -16.000000) " points="15.5 13.5 18.5 18.5 12.5 18.5"></polygon>
+                    <rect id="矩形复制-5" fill="#A6A7AD" x="2" y="9" width="16" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

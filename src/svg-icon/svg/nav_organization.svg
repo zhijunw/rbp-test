@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>nav_organization</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="导航布局" transform="translate(-12.000000, -191.000000)">
+            <g id="编组-3">
+                <g id="编组备份" transform="translate(0.000000, 178.000000)">
+                    <g id="编组-18备份" transform="translate(12.000000, 13.000000)">
+                        <rect id="矩形" x="0" y="0" width="16" height="16" rx="2"></rect>
+                        <rect id="矩形" fill="#FFFFFF" x="4" y="1" width="8" height="5" rx="1"></rect>
+                        <rect id="矩形备份" fill="#FFFFFF" x="1" y="10" width="6" height="4" rx="1"></rect>
+                        <rect id="矩形备份-5" fill="#FFFFFF" x="9" y="10" width="6" height="4" rx="1"></rect>
+                        <path d="M4,10 L4,9.33934452 C4,8.78705977 4.44771525,8.33934452 5,8.33934452 L11,8.33934452 C11.5522847,8.33934452 12,8.78705977 12,9.33934452 L12,10 L12,10" id="路径" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        <line x1="8" y1="8" x2="8" y2="6" id="直线" stroke="#FFFFFF" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

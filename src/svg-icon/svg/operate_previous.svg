@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>operate_previous</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-1048.000000, -143.000000)">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-11" transform="translate(16.000000, 61.000000)">
+                    <g id="编组-8备份-10" transform="translate(844.000000, 6.000000)">
+                        <g id="operate_previous">
+                            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                            <rect id="矩形备份-20" stroke="#24283F" x="0.5" y="0.5" width="15" height="15" rx="7.5"></rect>
+                            <polygon id="直线-10备份" fill="#24283F" fill-rule="nonzero" points="11.6035534 4.70710678 10.8964466 4 6.54289322 8.35355339 10.8964466 12.7071068 11.6035534 12 7.95710678 8.35355339"></polygon>
+                            <polygon id="直线-10" fill="#24283F" fill-rule="nonzero" points="4 4.35355339 4 12.3535534 5 12.3535534 5 4.35355339"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

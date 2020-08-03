@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nav_data</title>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="icon" transform="translate(-78.000000, -384.000000)">
+            <g id="编组-11" transform="translate(32.000000, 102.000000)">
+                <g id="编组-9" transform="translate(20.000000, 282.000000)">
+                    <g id="nav_data备份" transform="translate(26.000000, 0.000000)">
+                        <g id="nav_data">
+                            <rect id="矩形" opacity="0.600000024" x="0" y="0" width="16" height="16" rx="2"></rect>
+                            <path d="M7,2 L7,9 L14,9 C14,12.8659932 10.8659932,16 7,16 C3.13400675,16 0,12.8659932 0,9 C0,5.13400675 3.13400675,2 7,2 Z M9,0 C12.8659932,0 16,3.13400675 16,7 L9,7 L9,0 Z" id="形状结合" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

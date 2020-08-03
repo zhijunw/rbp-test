@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>sculpture_placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-列表" transform="translate(-1264.000000, -8.000000)">
+            <g id="编组-7" transform="translate(180.000000, 0.000000)">
+                <g id="编组-9复制" transform="translate(1084.000000, 8.000000)">
+                    <g id="sculpture_placeholder">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="蒙版" fill="#7E78AB" xlink:href="#path-1"></use>
+                        <circle id="椭圆形备份" fill="#7B97FF" mask="url(#mask-2)" cx="10" cy="21" r="9"></circle>
+                        <path d="M10,14 C12,14 14,11.7614237 14,9 C14,6.23857625 12.7614237,4 10,4 C7.23857625,4 6,6.23857625 6,9 C6,11.7614237 8,14 10,14 Z" id="椭圆形" fill="#FBEBCA" mask="url(#mask-2)"></path>
+                        <path d="M5.5,4 C7.5,1 11.5,2 11.75,2.8 C12.5,2.5 14,2.5 15,4 C15.5231523,4.78472848 15.439819,6.38472848 14.75,8.8 C14.25,8.93333333 13.8333333,9 13.5,9 C13.1666667,9 12.6666667,9 12,9 L11.75,7.3 L11.5,9 C10.6666667,9.2 9.75,9.3 8.75,9.3 C7.75,9.3 6.66666667,9.2 5.5,9 C4.5,7.33333333 4.5,5.66666667 5.5,4 Z" id="矩形" fill="#4A413C" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

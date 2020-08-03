@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nav_delivery</title>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="icon" transform="translate(-262.000000, -292.000000)">
+            <g id="编组-11" transform="translate(32.000000, 102.000000)">
+                <g id="编组-4" transform="translate(204.000000, 190.000000)">
+                    <g id="nav_delivery备份" transform="translate(26.000000, 0.000000)">
+                        <g id="nav_delivery">
+                            <rect id="矩形" opacity="0.600000024" x="0" y="0" width="16" height="16" rx="2"></rect>
+                            <rect id="矩形备份-7" fill="#FFFFFF" x="2" y="2" width="9" height="9" rx="1"></rect>
+                            <path d="M1.5,13 C1.22385763,13 1,12.7761424 1,12.5 C1,12.2238576 1.22385763,12 1.5,12 L11.2676063,11.9999275 C11.44323,11.6963559 11.6963559,11.44323 11.9999275,11.2676063 L12,1 L14.5,1 C14.7761424,1 15,1.22385763 15,1.5 C15,1.77614237 14.7761424,2 14.5,2 L13,2 L13,11 C14.1045695,11 15,11.8954305 15,13 C15,14.1045695 14.1045695,15 13,15 C11.8954305,15 11,14.1045695 11,13 L11,13 L1.5,13 Z" id="形状结合" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

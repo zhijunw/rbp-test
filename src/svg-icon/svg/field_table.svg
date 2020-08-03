@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>field_table</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#54BAFA" offset="0%"></stop>
+            <stop stop-color="#1C5EF5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="配置中心-字段配置-自定义字段" transform="translate(-204.000000, -141.000000)">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-9" transform="translate(16.000000, 65.000000)">
+                    <g id="field_table">
+                        <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M10,13 L6,13 C5.44771525,13 5,13.4477153 5,14 C5,14.5522847 5.44771525,15 6,15 L6,15 L10,15 C10.5522847,15 11,14.5522847 11,14 C11,13.4477153 10.5522847,13 10,13 L10,13 Z M14,9 L6,9 C5.44771525,9 5,9.44771525 5,10 C5,10.5522847 5.44771525,11 6,11 L6,11 L14,11 C14.5522847,11 15,10.5522847 15,10 C15,9.44771525 14.5522847,9 14,9 L14,9 Z M14,5 L6,5 C5.44771525,5 5,5.44771525 5,6 C5,6.55228475 5.44771525,7 6,7 L6,7 L14,7 C14.5522847,7 15,6.55228475 15,6 C15,5.44771525 14.5522847,5 14,5 L14,5 Z" id="形状结合" fill="url(#linearGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

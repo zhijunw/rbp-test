@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon/date</title>
+    <desc>Created with Sketch.</desc>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="示例-单据" transform="translate(-997.000000, -226.000000)" fill="#D7D7D7" fill-rule="nonzero">
+            <g id="编组-12" transform="translate(188.000000, 76.000000)">
+                <g id="编组-9" transform="translate(36.000000, 126.000000)">
+                    <g id="Group-3备份-2" transform="translate(599.000000, 0.000000)">
+                        <g id="Box/time" transform="translate(0.000000, 18.000000)">
+                            <g id="icon/date">
+                                <path d="M184,7.77777778 L178,7.77777778 L178,6 L175.75,6 L175.75,7.77777778 L175.038208,7.77777778 C174.464822,7.77777778 174,8.25097656 174,8.82357173 L174,20.954206 C174,21.5317821 174.465805,22 175.029453,22 L186.970547,22 C187.539098,22 188,21.5268012 188,20.954206 L188,8.82357173 C188,8.24599568 187.540208,7.77777778 186.961792,7.77777778 L186.25,7.77777778 L186.25,6 L184,6 L184,7.77777778 Z M175.75,20.2857149 L175.75,11.3333333 L186.25,11.3333333 L186.25,20.2857149 L175.75,20.2857149 Z M181.496456,14.8888889 L181.496456,18.4444445 L184.9375,18.4444445 L184.9375,14.8888889 L181.496456,14.8888889 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

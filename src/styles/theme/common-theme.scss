@@ -1,0 +1,565 @@
+/*
+** D01-主要按钮颜色
+*/ 
+$btn_d_blue-bgColor:#186CFF;
+$btn_d_blue-borderColor:#186CFF;
+$btn_d_blue-color:#fff;
+$btn_d_blue: (
+  'backgroundColor':$btn_d_blue-bgColor,
+  'borderColor':$btn_d_blue-borderColor,
+  'color':$btn_d_blue-color,
+);
+
+$btn_d_blue__hover-bgColor: #4689FF;
+$btn_d_blue__hover-borderColor: #4689FF;
+$btn_d_blue__hover-color: #fff;
+$btn_d_blue__hover: (
+  'backgroundColor':$btn_d_blue__hover-bgColor,
+  'borderColor':$btn_d_blue__hover-borderColor,
+  'color':$btn_d_blue__hover-color,
+);
+
+$btn_blue-bgColor:#1CA1FF;
+$btn_blue-borderColor:#4689FF;
+$btn_blue-color:#fff;
+$btn_blue: (
+  'backgroundColor':$btn_blue-bgColor,
+  'borderColor':$btn_blue-borderColor,
+  'color':$btn_blue-color,
+);
+
+$btn_blue__hover-bgColor:#49B3FF;
+$btn_blue__hover-borderColor:#49B3FF;
+$btn_blue__hover-color:#fff;
+$btn_blue__hover: (
+  'backgroundColor':$btn_blue__hover-bgColor,
+  'borderColor':$btn_blue__hover-borderColor,
+  'color':$btn_blue__hover-color,
+);
+
+$btn_green-bgColor:#23C811;
+$btn_green-borderColor:#23C811;
+$btn_green-color:#fff;
+$btn_green: (
+  'backgroundColor':$btn_green-bgColor,
+  'borderColor':$btn_green-borderColor,
+  'color':$btn_green-color,
+);
+
+$btn_green__hover-bgColor:#4FD340;
+$btn_green__hover-borderColor:#4FD340;
+$btn_green__hover-color:#fff;
+$btn_green__hover: (
+  'backgroundColor':$btn_green__hover-bgColor,
+  'borderColor':$btn_green__hover-borderColor,
+  'color':$btn_green__hover-color,
+);
+
+$btn_red-bgColor:#FA4150;
+$btn_red-borderColor:#FA4150;
+$btn_red-color:#fff;
+$btn_red: (
+  'backgroundColor':$btn_red-bgColor,
+  'borderColor':$btn_red-borderColor,
+  'color':$btn_red-color,
+);
+
+$btn_red__hover-bgColor:#FB6773;
+$btn_red__hover-borderColor:#FB6773;
+$btn_red__hover-color:#fff;
+$btn_red__hover: (
+  'backgroundColor':$btn_red__hover-bgColor,
+  'borderColor':$btn_red__hover-borderColor,
+  'color':$btn_red__hover-color,
+);
+
+$btn_orange-bgColor:#FF7F14;
+$btn_orange-borderColor:#FF7F14;
+$btn_orange-color:#fff;
+$btn_orange: (
+  'backgroundColor':$btn_orange-bgColor,
+  'borderColor':$btn_orange-borderColor,
+  'color':$btn_orange-color,
+);
+
+$btn_orange__hover-bgColor:#FF9843;
+$btn_orange__hover-borderColor:#FF9843;
+$btn_orange__hover-color:#fff;
+$btn_orange__hover: (
+  'backgroundColor':$btn_orange__hover-bgColor,
+  'borderColor':$btn_orange__hover-borderColor,
+  'color':$btn_orange__hover-color,
+);
+
+$btn_gray-bgColor:#AEB3BE;
+$btn_gray-borderColor:#AEB3BE;
+$btn_gray-color:#fff;
+$btn_gray: (
+  'backgroundColor':$btn_gray-bgColor,
+  'borderColor':$btn_gray-borderColor,
+  'color':$btn_gray-color,
+);
+
+$btn_gray__hover-bgColor:#BEC2CB;
+$btn_gray__hover-borderColor:#BEC2CB;
+$btn_gray__hover-color:#fff;
+$btn_gray__hover: (
+  'backgroundColor':$btn_gray__hover-bgColor,
+  'borderColor':$btn_gray__hover-borderColor,
+  'color':$btn_gray__hover-color,
+);
+
+$btn_cyan-bgColor:#54D1BC;
+$btn_cyan-borderColor:#54D1BC;
+$btn_cyan-color:#fff;
+$btn_cyan: (
+  'backgroundColor':$btn_cyan-bgColor,
+  'borderColor':$btn_cyan-borderColor,
+  'color':$btn_cyan-color,
+);
+
+$btn_cyan__hover-bgColor:#76DAC9;
+$btn_cyan__hover-borderColor:#76DAC9;
+$btn_cyan__hover-color:#fff;
+$btn_cyan__hover: (
+  'backgroundColor':$btn_cyan__hover-bgColor,
+  'borderColor':$btn_cyan__hover-borderColor,
+  'color':$btn_cyan__hover-color,
+);
+
+/*
+** D02-幽灵按钮颜色
+*/
+
+$btn_g_d_blue-bgColor:#fff;
+$btn_g_d_blue-borderColor:#186CFF;
+$btn_g_d_blue-color:#186CFF;
+$btn_g_d_blue: (
+  'backgroundColor':$btn_g_d_blue-bgColor,
+  'borderColor':$btn_g_d_blue-borderColor,
+  'color':$btn_g_d_blue-color,
+);
+
+$btn_g_d_blue__hover-bgColor:#fff;
+$btn_g_d_blue__hover-borderColor:#6DA3FF;
+$btn_g_d_blue__hover-color:#6DA3FF;
+$btn_g_d_blue__hover: (
+  'backgroundColor':$btn_g_d_blue__hover-bgColor,
+  'borderColor':$btn_g_d_blue__hover-borderColor,
+  'color':$btn_g_d_blue__hover-color,
+);
+
+$btn_g_blue-bgColor:#fff;
+$btn_g_blue-borderColor:#76C6FF;
+$btn_g_blue-color:#1CA1FF;
+$btn_g_blue: (
+  'backgroundColor':$btn_g_blue-bgColor,
+  'borderColor':$btn_g_blue-borderColor,
+  'color':$btn_g_blue-color,
+);
+
+$btn_g_blue__hover-bgColor:#fff;
+$btn_g_blue__hover-borderColor:#49B3FF;
+$btn_g_blue__hover-color:#91D1FF;
+$btn_g_blue__hover: (
+  'backgroundColor':$btn_g_blue__hover-bgColor,
+  'borderColor':$btn_g_blue__hover-borderColor,
+  'color':$btn_g_blue__hover-color,
+);
+
+$btn_g_green-bgColor:#fff;
+$btn_g_green-borderColor:#7BDE70;
+$btn_g_green-color:#23C811;
+$btn_g_green: (
+  'backgroundColor':$btn_g_green-bgColor,
+  'borderColor':$btn_g_green-borderColor,
+  'color':$btn_g_green-color,
+);
+
+$btn_g_green__hover-bgColor:#fff;
+$btn_g_green__hover-borderColor:#4FD340;
+$btn_g_green__hover-color:#4FD340;
+$btn_g_green__hover: (
+  'backgroundColor':$btn_g_green__hover-bgColor,
+  'borderColor':$btn_g_green__hover-borderColor,
+  'color':$btn_g_green__hover-color,
+);
+
+$btn_g_red-bgColor:#fff;
+$btn_g_red-borderColor:#FDB3B9;
+$btn_g_red-color:#FA4150;
+$btn_g_red: (
+  'backgroundColor':$btn_g_red-bgColor,
+  'borderColor':$btn_g_red-borderColor,
+  'color':$btn_g_red-color,
+);
+
+$btn_g_red__hover-bgColor:#fff;
+$btn_g_red__hover-borderColor:#FDC2C7;
+$btn_g_red__hover-color:#FB6773;
+$btn_g_red__hover: (
+  'backgroundColor':$btn_g_red__hover-bgColor,
+  'borderColor':$btn_g_red__hover-borderColor,
+  'color':$btn_g_red__hover-color,
+);
+
+$btn_g_orange-bgColor:#fff;
+$btn_g_orange-borderColor:#FFBF89;
+$btn_g_orange-color:#FF7F14;
+$btn_g_orange: (
+  'backgroundColor':$btn_g_orange-bgColor,
+  'borderColor':$btn_g_orange-borderColor,
+  'color':$btn_g_orange-color,
+);
+
+$btn_g_orange__hover-bgColor:#fff;
+$btn_g_orange__hover-borderColor:#FFCBA0;
+$btn_g_orange__hover-color:#FF9843;
+$btn_g_orange__hover: (
+  'backgroundColor':$btn_g_orange__hover-bgColor,
+  'borderColor':$btn_g_orange__hover-borderColor,
+  'color':$btn_g_orange__hover-color,
+);
+
+$btn_g_gray-bgColor:#fff;
+$btn_g_gray-borderColor:#B1B5C0;
+$btn_g_gray-color:#353D51;
+$btn_g_gray: (
+  'backgroundColor':$btn_g_gray-bgColor,
+  'borderColor':$btn_g_gray-borderColor,
+  'color':$btn_g_gray-color,
+);
+
+$btn_g_gray__hover-bgColor:#fff;
+$btn_g_gray__hover-borderColor:#CFD2D8;
+$btn_g_gray__hover-color:#5C647B;
+$btn_g_gray__hover: (
+  'backgroundColor':$btn_g_gray__hover-bgColor,
+  'borderColor':$btn_g_gray__hover-borderColor,
+  'color':$btn_g_gray__hover-color,
+);
+
+$btn_g_cyan-bgColor:#fff;
+$btn_g_cyan-borderColor:#54D1BC;
+$btn_g_cyan-color:#54D1BC;
+$btn_g_cyan: (
+  'backgroundColor':$btn_g_cyan-bgColor,
+  'borderColor':$btn_g_cyan-borderColor,
+  'color':$btn_g_cyan-color,
+);
+
+$btn_g_cyan__hover-bgColor:#fff;
+$btn_g_cyan__hover-borderColor:#76DAC9;
+$btn_g_cyan__hover-color:#76DAC9;
+$btn_g_cyan__hover: (
+  'backgroundColor':$btn_g_cyan__hover-bgColor,
+  'borderColor':$btn_g_cyan__hover-borderColor,
+  'color':$btn_g_cyan__hover-color,
+);
+
+$btn_t_d_blue-color:#186CFF;
+$btn_t_d_blue: (
+  'color':$btn_t_d_blue-color,
+);
+
+$btn_t_d_blue__hover-color:#4689FF;
+$btn_t_d_blue__hover: (
+  'color':$btn_t_d_blue__hover-color,
+);
+
+$btn_t_blue-color:#1CA1FF;
+$btn_t_blue: (
+  'color':$btn_t_blue-color,
+);
+
+$btn_t_blue__hover-color:#49B3FF;
+$btn_t_blue__hover: (
+  'color':$btn_t_blue__hover-color,
+);
+
+$btn_t_green-color:#23C811;
+$btn_t_green: (
+  'color':$btn_t_green-color,
+);
+
+$btn_t_green__hover-color:#4FD340;
+$btn_t_green__hover: (
+  'color':$btn_t_green__hover-color,
+);
+
+$btn_t_red-color:#FA4150;
+$btn_t_red: (
+  'color':$btn_t_red-color,
+);
+
+$btn_t_red__hover-color:#FB6773;
+$btn_t_red__hover: (
+  'color':$btn_t_red__hover-color,
+);
+
+$btn_t_orange-color:#FF7F14;
+$btn_t_orange: (
+  'color':$btn_t_orange-color,
+);
+
+$btn_t_orange__hover-color:#FF9843;
+$btn_t_orange__hover: (
+  'color':$btn_t_orange__hover-color,
+);
+
+$btn_t_gray-color:#808080;
+$btn_t_gray: (
+  'color':$btn_t_gray-color,
+);
+
+$btn_t_gray__hover-color:#999999;
+$btn_t_gray__hover: (
+  'color':$btn_t_gray__hover-color,
+);
+// $btn_t_default-color:#7C7E85;
+// $btn_t_default: (
+//   'color':$btn_t_default-color,
+// );
+
+:export{
+  btn_d_blue: $btn_d_blue-bgColor,$btn_d_blue-borderColor,$btn_d_blue-color;
+  btn_blue: $btn_blue-bgColor,$btn_blue-borderColor,$btn_blue-color;
+  btn_green: $btn_green-bgColor,$btn_green-borderColor,$btn_green-color;
+  btn_red: $btn_red-bgColor,$btn_red-borderColor,$btn_red-color;
+  btn_orange: $btn_orange-bgColor,$btn_orange-borderColor,$btn_orange-color;
+  btn_gray: $btn_gray-bgColor,$btn_gray-borderColor,$btn_gray-color;
+  btn_cyan: $btn_cyan-bgColor,$btn_cyan-borderColor,$btn_cyan-color;
+
+  btn_d_blue__hover: $btn_d_blue__hover-bgColor,$btn_d_blue__hover-borderColor,$btn_d_blue__hover-color;
+  btn_blue__hover: $btn_blue__hover-bgColor,$btn_blue__hover-borderColor,$btn_blue__hover-color;
+  btn_green__hover: $btn_green__hover-bgColor,$btn_green__hover-borderColor,$btn_green__hover-color;
+  btn_red__hover: $btn_red__hover-bgColor,$btn_red__hover-borderColor,$btn_red__hover-color;
+  btn_orange__hover: $btn_orange__hover-bgColor,$btn_orange__hover-borderColor,$btn_orange__hover-color;
+  btn_gray__hover: $btn_gray__hover-bgColor,$btn_gray__hover-borderColor,$btn_gray__hover-color;
+  btn_cyan__hover: $btn_cyan__hover-bgColor,$btn_cyan__hover-borderColor,$btn_cyan__hover-color;
+
+  btn_g_d_blue: $btn_g_d_blue-bgColor,$btn_g_d_blue-borderColor,$btn_g_d_blue-color;
+  btn_g_blue: $btn_g_blue-bgColor,$btn_g_blue-borderColor,$btn_g_blue-color;
+  btn_g_green: $btn_g_green-bgColor,$btn_g_green-borderColor,$btn_g_green-color;
+  btn_g_red: $btn_g_red-bgColor,$btn_g_red-borderColor,$btn_g_red-color;
+  btn_g_orange: $btn_g_orange-bgColor,$btn_g_orange-borderColor,$btn_g_orange-color;
+  btn_g_gray: $btn_g_gray-bgColor,$btn_g_gray-borderColor,$btn_g_gray-color;
+  btn_g_cyan: $btn_g_cyan-bgColor,$btn_g_cyan-borderColor,$btn_g_cyan-color;
+
+  btn_g_d_blue__hover: $btn_g_d_blue__hover-bgColor,$btn_g_d_blue__hover-borderColor,$btn_g_d_blue__hover-color;
+  btn_g_blue__hover: $btn_g_blue__hover-bgColor,$btn_g_blue__hover-borderColor,$btn_g_blue__hover-color;
+  btn_g_green__hover: $btn_g_green__hover-bgColor,$btn_g_green__hover-borderColor,$btn_g_green__hover-color;
+  btn_g_red__hover: $btn_g_red__hover-bgColor,$btn_g_red__hover-borderColor,$btn_g_red__hover-color;
+  btn_g_orange__hover: $btn_g_orange__hover-bgColor,$btn_g_orange__hover-borderColor,$btn_g_orange__hover-color;
+  btn_g_gray__hover: $btn_g_gray__hover-bgColor,$btn_g_gray__hover-borderColor,$btn_g_gray__hover-color;
+  btn_g_cyan__hover: $btn_g_cyan__hover-bgColor,$btn_g_cyan__hover-borderColor,$btn_g_cyan__hover-color;
+
+  btn_t_d_blue: $btn_t_d_blue-color;
+  btn_t_blue: $btn_t_blue-color;
+  btn_t_green: $btn_t_green-color;
+  btn_t_red: $btn_t_red-color;
+  btn_t_orange: $btn_t_orange-color;
+  btn_t_gray: $btn_t_gray-color;
+
+  btn_t_d_blue__hover: $btn_t_d_blue__hover-color;
+  btn_t_blue__hover: $btn_t_blue__hover-color;
+  btn_t_green__hover: $btn_t_green__hover-color;
+  btn_t_red__hover: $btn_t_red__hover-color;
+  btn_t_orange__hover: $btn_t_orange__hover-color;
+  btn_t_gray__hover: $btn_t_gray__hover-color;
+  // btn_t_delete: $btn_t_delete-color;
+}
+
+#btn_d_blue{
+  background-color: map-get($btn_d_blue,'backgroundColor');
+  border-color: map-get($btn_d_blue,'borderColor');
+  color: map-get($btn_d_blue,'color');
+  &:hover{
+    background-color: map-get($btn_d_blue__hover,'backgroundColor');
+    border-color: map-get($btn_d_blue__hover,'borderColor');
+    color: map-get($btn_d_blue__hover,'color');
+  }
+}
+#btn_blue{
+  background-color: map-get($btn_blue,'backgroundColor');
+  border-color: map-get($btn_blue,'borderColor');
+  color: map-get($btn_blue,'color');
+  &:hover{
+    background-color: map-get($btn_blue__hover,'backgroundColor');
+    border-color: map-get($btn_blue__hover,'borderColor');
+    color: map-get($btn_blue__hover,'color');
+  }
+}
+#btn_green{
+  background-color: map-get($btn_green,'backgroundColor');
+  border-color: map-get($btn_green,'borderColor');
+  color: map-get($btn_green,'color');
+  &:hover{
+    background-color: map-get($btn_green__hover,'backgroundColor');
+    border-color:map-get($btn_green__hover,'borderColor');
+    color: map-get($btn_green__hover,'color');
+  }
+}
+#btn_red{
+  background-color: map-get($btn_red,'backgroundColor');
+  border-color: map-get($btn_red,'borderColor');
+  color: map-get($btn_red,'color');
+  &:hover{
+    background-color: map-get($btn_red__hover,'backgroundColor');
+    border-color: map-get($btn_red__hover,'borderColor');
+    color: map-get($btn_red__hover,'color');
+  }
+}
+#btn_orange{
+  background-color: map-get($btn_orange,'backgroundColor');
+  border-color: map-get($btn_orange,'borderColor');
+  color: map-get($btn_orange,'color');
+  &:hover{
+    background-color: map-get($btn_orange__hover,'backgroundColor');
+    border-color: map-get($btn_orange__hover,'borderColor');
+    color: map-get($btn_orange__hover,'color');
+  }
+}
+#btn_gray{
+  background-color: map-get($btn_gray,'backgroundColor');
+  border-color: map-get($btn_gray,'borderColor');
+  color: map-get($btn_gray,'color');
+  &:hover{
+    background-color: map-get($btn_gray__hover,'backgroundColor');
+    border-color: map-get($btn_gray__hover,'borderColor');
+    color: map-get($btn_gray__hover,'color');
+  }
+}
+#btn_cyan{
+  background-color: map-get($btn_cyan,'backgroundColor');
+  border-color: map-get($btn_cyan,'borderColor');
+  color: map-get($btn_cyan,'color');
+  &:hover{
+    background-color: map-get($btn_cyan__hover,'backgroundColor');
+    border-color: map-get($btn_cyan__hover,'borderColor');
+    color: map-get($btn_cyan__hover,'color');
+  }
+}
+/*
+** D02-幽灵按钮颜色
+*/ 
+#btn_g_d_blue{
+  background-color: map-get($btn_g_d_blue,'backgroundColor');
+  border-color: map-get($btn_g_d_blue,'borderColor');
+  color: map-get($btn_g_d_blue,'color');
+  &:hover{
+    background-color: map-get($btn_g_d_blue__hover,'backgroundColor');
+    border-color: map-get($btn_g_d_blue__hover,'borderColor');
+    color: map-get($btn_g_d_blue__hover,'color');
+  }
+}
+#btn_g_blue{
+  background-color: map-get($btn_g_blue,'backgroundColor');
+  border-color: map-get($btn_g_blue,'borderColor');
+  color: map-get($btn_g_blue,'color');
+  &:hover{
+    background-color: map-get($btn_g_blue__hover,'backgroundColor');
+    border-color: map-get($btn_g_blue__hover,'borderColor');
+    color: map-get($btn_g_blue__hover,'color');
+  }
+}
+#btn_g_green{
+  background-color: map-get($btn_g_green,'backgroundColor');
+  border-color: map-get($btn_g_green,'borderColor');
+  color: map-get($btn_g_green,'color');
+  &:hover{
+    background-color: map-get($btn_g_green__hover,'backgroundColor');
+    border-color: map-get($btn_g_green__hover,'borderColor');
+    color: map-get($btn_g_green__hover,'color');
+  }
+}
+#btn_g_red{
+  background-color: map-get($btn_g_red,'backgroundColor');
+  border-color: map-get($btn_g_red,'borderColor');
+  color: map-get($btn_g_red,'color');
+  &:hover{
+    background-color: map-get($btn_g_red__hover,'backgroundColor');
+    border-color: map-get($btn_g_red__hover,'borderColor');
+    color: map-get($btn_g_red__hover,'color');
+  }
+}
+#btn_g_orange{
+  background-color: map-get($btn_g_orange,'backgroundColor');
+  border-color: map-get($btn_g_orange,'borderColor');
+  color: map-get($btn_g_orange,'color');
+  &:hover{
+    background-color: map-get($btn_g_orange__hover,'backgroundColor');
+    border-color: map-get($btn_g_orange__hover,'borderColor');
+    color: map-get($btn_g_orange__hover,'color');
+  }
+}
+#btn_g_gray{
+  background-color: map-get($btn_g_gray,'backgroundColor');
+  border-color: map-get($btn_g_gray,'borderColor');
+  color: map-get($btn_g_gray,'color');
+  &:hover{
+    background-color: map-get($btn_g_gray__hover,'backgroundColor');
+  border-color: map-get($btn_g_gray__hover,'borderColor');
+  color: map-get($btn_g_gray__hover,'color');
+  }
+}
+
+#btn_g_cyan{
+  background-color: map-get($btn_g_cyan,'backgroundColor');
+  border-color: map-get($btn_g_cyan,'borderColor');
+  color: map-get($btn_g_cyan,'color');
+  &:hover{
+    background-color: map-get($btn_g_cyan__hover,'backgroundColor');
+    border-color: map-get($btn_g_cyan__hover,'borderColor');
+    color: map-get($btn_g_cyan__hover,'color');
+  }
+}
+
+/*
+** 文本按钮颜色
+*/ 
+#btn_t_d_blue{
+  color: map-get($btn_t_d_blue,'color');
+  &:hover{
+    color: map-get($btn_t_d_blue__hover,'color');
+  }
+}
+#btn_t_blue{
+  color: map-get($btn_t_blue,'color');
+  &:hover{
+    color: map-get($btn_t_blue__hover,'color');
+  }
+}
+#btn_t_green{
+  color: map-get($btn_t_green,'color');
+  &:hover{
+    color: map-get($btn_t_green__hover,'color');
+  }
+}
+#btn_t_red{
+  color: map-get($btn_t_red,'color');
+  &:hover{
+    color: map-get($btn_t_red__hover,'color');
+  }
+}
+#btn_t_orange{
+  color: map-get($btn_t_orange,'color');
+  &:hover{
+    color: map-get($btn_t_orange__hover,'color');
+  }
+}
+#btn_t_gray{
+  color: map-get($btn_t_gray,'color');
+  &:hover{
+    color: map-get($btn_t_gray__hover,'color');
+  }
+}
+// #btn_t_delete{
+//   color: map-get($btn_t_delete,'color');
+//   &:hover {
+//     color: #FA4150;
+//   }
+// }
+.btn-underline {
+  text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nav_member</title>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="icon" transform="translate(-170.000000, -338.000000)">
+            <g id="编组-11" transform="translate(32.000000, 102.000000)">
+                <g id="编组-7" transform="translate(112.000000, 236.000000)">
+                    <g id="nav_member备份" transform="translate(26.000000, 0.000000)">
+                        <g id="nav_member">
+                            <rect id="矩形备份-11" opacity="0.600000024" x="0" y="0" width="16" height="16" rx="2"></rect>
+                            <path d="M8,2 L11.2,8 L15,4.5 L14,14 L2,14 L1,4.5 L4.8,8 L8,2 Z M10,10 L6,10 L6,12 L10,12 L10,10 Z" id="形状结合" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
